@@ -4,12 +4,15 @@ import "./Home.css";
 import Testimonials from './Testimonials/Testimonials.jsx'
 import mainPhoto from '../assets/img/mainPhoto.png';
 import logo from '../assets/img/logo.png';
-import hero from '../assets/img/hero-devices.svg'
-import design from '../assets/img/design.png'
-import dev from '../assets/img/web-dev-icon-980x846.png'
-import backend from '../assets/img/backend.png'
-import knight from '../assets/img/knight.png'
-import home from '../assets/img/home.png'
+import hero from '../assets/img/hero-devices.svg';
+import design from '../assets/img/design.png';
+import dev from '../assets/img/web-dev-icon-980x846.png';
+import backend from '../assets/img/backend.png';
+import knight from '../assets/img/knight.png';
+import home from '../assets/img/home.png';
+// import twitter from '../assets/img/twitter.png';
+// import github from '../assets/img/github.png';
+
 
 class Home extends Component {
   render() {
@@ -175,8 +178,11 @@ class Home extends Component {
               <img className="footer-logo" src={logo} alt="G" />
             </Col>
             <Col className='icon-holder'>
-
-            
+              {/* <p>Growing and improving one day at a time</p>
+              <div className="icons">
+                <img src={twitter} className="twitter" alt=""/>
+                <img src={github} className="github" alt=""/>
+              </div> */}
             </Col>
           </Row>
         </div>
