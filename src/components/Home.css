@@ -223,8 +223,16 @@ a:visited{
   display: flex;
   justify-content: center;
 }
-/* 
+
 .icon-holder{
-  display: flex;
-  justify-content: center;
-} */
+  text-align: center;
+  font-size: 20px;
+}
+
+.icon-holder img{
+
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin-top: 50px;
+}

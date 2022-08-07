@@ -10,8 +10,8 @@ import dev from '../assets/img/web-dev-icon-980x846.png';
 import backend from '../assets/img/backend.png';
 import knight from '../assets/img/knight.png';
 import home from '../assets/img/home.png';
-// import twitter from '../assets/img/twitter.png';
-// import github from '../assets/img/github.png';
+import twitter from '../assets/img/twitter.png';
+import github from '../assets/img/github.png'
 
 
 class Home extends Component {
@@ -172,19 +172,23 @@ class Home extends Component {
             </Row>
           </div>
         </div>
+       
         <div className="container-fluid footer">
           <Row className="justify-content-center">
             <Col sm="12" md="12" lg="12" className="footer-container">
               <img className="footer-logo" src={logo} alt="G" />
             </Col>
-            <Col className='icon-holder'>
-              {/* <p>Growing and improving one day at a time</p>
+            <Col className='icon-holder text-white'>
+              <p>Growing and improving one day at a time</p>
               <div className="icons">
-                <img src={twitter} className="twitter" alt=""/>
-                <img src={github} className="github" alt=""/>
-              </div> */}
+                <a href="https://twitter.com/GImhandegbelo" target="blank"><img src={twitter} className="twitter" alt=""/></a>
+                <a href="https://github.com/Imhandegbelo" target="blank"><img src={github} className="github" alt=""/></a>
+              </div>
             </Col>
           </Row>
+          <div className="dark">
+            George Imhandegbelo @ <script>document.innerHTML(new Date.now().getFullYear())</script>
+          </div>
         </div>
 
       </div>
