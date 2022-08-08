@@ -187,7 +187,7 @@ class Home extends Component {
             </Col>
           </Row>
           <div className="dark">
-            George Imhandegbelo @ <script>document.innerHTML(new Date.now().getFullYear())</script>
+            All rights reserved <br/>George Imhandegbelo @ <script>document.write(new Date().getFullYear())</script>
           </div>
         </div>
 
